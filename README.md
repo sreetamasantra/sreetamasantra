@@ -1,89 +1,84 @@
-<div align="center">
+<h1 align="center">Sreetama Santra</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D5BFF,100:1FC8DB&height=220&section=header&text=Sreetama%20Santra&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%3E_%20AI%2FML%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20DSA%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=B.Tech+CSE+(IoT)+%40+IEM+Kolkata;AI%2FML+Minor+%7C+Placement+Prep+Mode%3A+ON;Currently+writing+two+Scopus+papers;Attention+detection.+Sentiment+analysis.+Repeat." alt="Typing SVG" />
+</p>
 
-<code>building systems that learn — git push</code>
+<p align="center">
+  <a href="mailto:sreetamasantra30@gmail.com"><img src="https://img.shields.io/badge/Email-sreetamasantra30%40gmail.com-2E9EF7?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/sreetama-santra"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/sreetamasantra"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" /></a>
+</p>
 
-<a href="https://www.linkedin.com/in/sreetama-santra-427360322"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:sreetamasantra30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=sreetamasantra&style=for-the-badge&color=6D5BFF&label=PROFILE+VIEWS"/>
+---
 
-</div>
+### About
 
-<br/>
+I'm a third-year Computer Science student at IEM, Salt Lake, Kolkata, specializing in IoT with a minor in AI/ML. I like problems that sit at the boundary of hardware signals and machine learning — think webcam-based attention detection, battery state-of-charge estimation, and NLP on low-resource languages. Right now I'm deep in placement prep: DSA, portfolio projects, and research writing, roughly in that order of urgency.
 
-## WHOAMI
+---
 
-**3rd-year B.Tech CSE (IoT specialization, AI/ML minor)** @ Institute of Engineering & Management, Kolkata 
+### Tech Stack
 
-- 🔭 Currently building **MindSync**, an attention-aware adaptive learning system (OpenCV + MediaPipe + Scikit-learn)
+<p align="left">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" />
+</p>
 
-<br/>
+Also comfortable with: MediaPipe, pdfplumber, and general IoT + signal-processing tooling.
 
-## Tech Arsenal
+---
 
-<div align="center">
+### Featured Work
 
-**Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,java,c,js" />
+**MindSync — Webcam Attention Detection**
+Cognitive-state classification using OpenCV, MediaPipe, and eye-aspect-ratio (EAR) computation feeding a scikit-learn classifier. Subject of one of two Scopus papers currently in progress.
+`opencv` `mediapipe` `scikit-learn`
 
-**AI / Machine Learning**
-<br/>
-<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,opencv" />
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white"/>
+**Resume Parser**
+FastAPI backend with spaCy-based parsing, pdfplumber extraction, and a job-match analyzer with a scoring UI.
+`fastapi` `spacy` `pdfplumber`
+[repo →](https://github.com/sreetamasantra/resume-parser)
 
-**Web & Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=flask,fastapi,html,css" />
+**Autocorrect Tool**
+Edit-distance + bigram N-gram model served through Flask, benchmarked at 90% accuracy.
+`flask` `nlp`
+[repo →](https://github.com/sreetamasantra/autocorrect-tool)
 
-**Tools & Platforms**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,colab,gcp" />
+**SecureCare (Medora)**
+AI-assisted medicine reminder and prescription authenticity checker, built with a team using the Spiral Model. Handling frontend development.
+`team project` `spiral model`
 
-</div>
+**Battery State-of-Charge Estimation**
+ML-based SoC and remaining charge-time prediction, from the TIH IIT Guwahati AI/ML Bootcamp internship track.
+`ml` `time-series`
 
-<br/>
+---
 
-## Featured Projects
+### GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sreetamasantra&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sreetamasantra&layout=compact&theme=default&hide_border=true" />
+</p>
 
-<a href="https://github.com/sreetamasantra/MindSync">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=sreetamasantra&repo=MindSync&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/sreetamasantra/resume-parser">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=sreetamasantra&repo=resume-parser&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/sreetamasantra/Controllable-AI-Text-Summarizer">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=sreetamasantra&repo=Controllable-AI-Text-Summarizer&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/sreetamasantra/Social-Media-Post-Sentiment-Analysis">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=sreetamasantra&repo=Social-Media-Post-Sentiment-Analysis&theme=tokyonight&hide_border=true" />
-</a>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sreetamasantra&theme=default&hide_border=true" />
+</p>
 
-</div>
+---
 
-<br/>
+### Currently
 
-## GitHub Stats
+- Writing two Scopus-track papers: MindSync (attention detection) and a Bengali sentiment analysis study
+- Open to internship opportunities 
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=sreetamasantra&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sreetamasantra&theme=tokyonight&hide_border=true" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sreetamasantra&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<em>"The best code is the one that solves a real problem for a real person."</em> ✨
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1FC8DB,100:6D5BFF&height=100&section=footer"/>
-
-</div>
+<p align="center"><i>Reach out — I reply to email faster than I reply to LinkedIn.</i></p>
